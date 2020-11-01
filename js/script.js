@@ -85,7 +85,7 @@ function move(isGoingLeft) {
                 '-o-transition': '0s',
                 'transition': '0s'
             });
-            transformElement('.carousel', '');
+            transformElement(carousel, '');
             toggleSelectedItem(true);
         }, 500);
         setTimeout(function () {
